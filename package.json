@@ -1,0 +1,19 @@
+{
+  "name": "poccypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run-healthcheck": "./node_modules/.bin/cypress run --env --grep=@healthcheck",
+    "cypress:run-teste": "./node_modules/.bin/cypress run --env --grep=@teste"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@hapi/joi": "^17.1.1",
+    "cypress": "^4.6.0",
+    "cypress-select-tests": "^1.5.7"
+  }
+}
